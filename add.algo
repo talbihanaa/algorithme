@@ -1,0 +1,28 @@
+
+ALGORITHM  character
+VAR length,words,vowel:entier
+    length = 0
+    word = 0
+    vowel = 0
+BEGIN
+  
+    for char in sentence:
+       
+        length += 1
+
+       
+        if char space():
+            word += 1
+
+        
+        if char sentence() in ['a', 'e', 'i', 'o', 'u']:
+            vowel += 1
+
+    
+   
+
+    
+     Print("The length of the sentence:", length)
+    Print("The number of words:", word)
+    Print("The number of vowels:", vowel)
+END
